@@ -157,7 +157,7 @@
   <p class="meme-quote" style="color: #d9534f;">"One does not simply bring 10x Bananenbrot."</p>
 
   <div class="btn-container" id="action-buttons">
-    <button id="btn-accept">Ich bin dabei! 🍻</button>
+    <button id="btn-accept">Ich bin dabei! 🥳</button>
     <button id="btn-decline">Ich kann nicht 😭</button>
   </div>
 
@@ -256,7 +256,7 @@
       const response = await fetch(scriptURL);
       const data = await response.json();
       
-      buffetList.innerHTML = `<li><span><strong>Simon & Cedric</strong></span> <span>Getränke & Location 🍻</span></li>`;
+      buffetList.innerHTML = `<li><span><strong>Simon & Cedric</strong></span> <span>Getränke & Location 🥳</span></li>`;
       
       data.forEach(row => {
         let foodText = row.food;
